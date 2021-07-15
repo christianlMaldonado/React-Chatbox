@@ -5,15 +5,26 @@ class ActionProvider {
     }
 
     greet() {
-        const greetingMessage = this.createChatBotMessage("Hi, friend.")
-        this.updateChatbotState(greetingMessage)
-    }
+        const greetingMessage = this.createChatBotMessage("Hi, friend.");
+        this.updateChatbotState(greetingMessage);
+      }
+
+    handleJavascriptList = () => {
+        const message = this.createChatBotMessage(
+            "Fantastic, I've got the following recources for you on Javascript:",
+            {
+                widget: "javascriptLinks",
+            }
+        );
+
+        this.updateChatbotState(message);
+    };
 
     updateChatbotState(message) {
       // NOTE: Function is set in constructoe ans is passsed below  
         this.setState(prevState => ({
             ...prevState, messages: [...prevState.messages, message]
-        }))
+        }));
     }
 }
 
