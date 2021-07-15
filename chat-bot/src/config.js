@@ -47,6 +47,98 @@ const config = {
                 ],
             },
         },
+        {
+            widgetName: "dataVisualizationLinks",
+            widgetFunc: (props) => <LinkList {...props} />,
+            props: {
+                options: [
+                    {
+                        text: "Link 1 Data Visualization",
+                        url:"/",
+                        id: 4,
+                    },
+                    {
+                        text: "Link 2 mozilla DV guide",
+                        url: "/",
+                        id: 5,
+                    },
+                    {
+                        text: "Link 3 Data Guide",
+                        url: "/",
+                        id:6,
+                    },
+                ],
+            },
+        },
+        {
+            widgetName: "apiLinks",
+            widgetFunc: (props) => <LinkList {...props} />,
+            props: {
+                options: [
+                    {
+                        text: "API 1",
+                        url:"/",
+                        id: 1,
+                    },
+                    {
+                        text: "API 2",
+                        url: "/",
+                        id: 2,
+                    },
+                    {
+                        text: "API 3",
+                        url: "/",
+                        id:3,
+                    },
+                ],
+            },
+        },
+        {
+            widgetName: "blankLinks",
+            widgetFunc: (props) => <LinkList {...props} />,
+            props: {
+                options: [
+                    {
+                        text: "Link 1",
+                        url:"/",
+                        id: 1,
+                    },
+                    {
+                        text: "Link 2",
+                        url: "/",
+                        id: 2,
+                    },
+                    {
+                        text: "Link 3",
+                        url: "/",
+                        id:3,
+                    },
+                ],
+            },
+        },
+        {
+            widgetName: "interviewPrepLinks",
+            widgetFunc: (props) => <LinkList {...props} />,
+            props: {
+                options: [
+                    {
+                        text: "Interview Prep 1",
+                        url:"/",
+                        id: 1,
+                    },
+                    {
+                        text: "Interview Prep 2",
+                        url: "/",
+                        id: 2,
+                    },
+                    {
+                        text: "Interview Prep 3",
+                        url: "/",
+                        id:3,
+                    },
+                ],
+            },
+        },
     ],
 };
 

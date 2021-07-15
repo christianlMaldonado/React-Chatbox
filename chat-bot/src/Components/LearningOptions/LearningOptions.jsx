@@ -9,9 +9,26 @@ const LearningOptions = (props) => {
             handler: props.actionProvider.handleJavascriptList,
             id: 1,
         },
-        { text: "Data visiualization", handler: () => {}, id: 2 },
-        { text: "APIs", handler: () => {}, id: 4 },
-        { text: "Interview prep", handler: () => {}, id: 5},
+        { 
+            text: "Data visualization",
+            handler: props.actionProvider.handleDataVisualization,
+            id: 2,
+        },
+        {
+            text: "APIs",
+            handler: props.actionProvider.handleApi,
+            id: 3,
+        },
+        {
+            text: "blank",
+            handler: props.actionProvider.handleBlank,
+            id: 4,
+        },
+        {
+            text: "Interview prep",
+            handler: props.actionProvider.interviewPrep,
+            id: 5,
+        },
     ];
  
     const optionsMarkup = options.map((option) => (
