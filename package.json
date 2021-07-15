@@ -1,0 +1,21 @@
+{
+  "name": "react-chatbox",
+  "version": "1.0.0",
+  "description": "Simple Chatbot in React using Data Science.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianlMaldonado/React-Chatbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christianlMaldonado/React-Chatbox/issues"
+  },
+  "homepage": "https://github.com/christianlMaldonado/React-Chatbox#readme"
+}
