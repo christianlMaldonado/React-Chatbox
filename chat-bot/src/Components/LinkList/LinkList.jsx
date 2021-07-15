@@ -1,7 +1,7 @@
 import React from "react";
-import './Linklist.css';
+import '../LinkList/LinkList.css';
 
-const Linklist = (props) => {
+const LinkList = (props) => {
     const linkMarkup = props.options.map((link) => (
         <li key={link.id} className="link-list-item">
             <a
@@ -18,4 +18,4 @@ const Linklist = (props) => {
     return <ul className="link-list">{linkMarkup}</ul>;
 };
 
-export default Linklist; 
+export default LinkList; 
