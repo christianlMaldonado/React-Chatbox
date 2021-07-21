@@ -11,26 +11,27 @@ class MessageParser {
              this.actionProvider.mainMenu()
          }
         
-        if (lowerCaseMessage.includes("hello")) {
+        else if (lowerCaseMessage.includes("hello")) {
             this.actionProvider.greet()
         }
         
-        if (lowerCaseMessage.includes("javascript")) {
+        else if (lowerCaseMessage.includes("javascript")) {
             this.actionProvider.handleJavasciptList();
         }
         
-        if (lowerCaseMessage.includes("data visualization")) {
+        else if (lowerCaseMessage.includes("data visualization")) {
             this.actionProvider.handleDataVisualizationList();
         }
-        if (lowerCaseMessage.includes("apis")) {
+        
+        else if (lowerCaseMessage.includes("apis")) {
             this.actionProvider.handleApiList();
         }
 
-        if (lowerCaseMessage.includes("blank")) {
+        else if (lowerCaseMessage.includes("blank")) {
             this.actionProvider.handleBlankList();
         }
 
-        if (lowerCaseMessage.includes("interview prep")) {
+        else if (lowerCaseMessage.includes("interview prep")) {
             this.actionProvider.handleInterviewPrepList();
         }
     }
