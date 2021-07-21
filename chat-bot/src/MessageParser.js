@@ -10,7 +10,7 @@ class MessageParser {
         if (lowerCaseMessage.includes("menu")) {
              this.actionProvider.mainMenu()
          }
-        
+    
         if (lowerCaseMessage.includes("hello")) {
             this.actionProvider.greet()
         }
@@ -22,6 +22,7 @@ class MessageParser {
         if (lowerCaseMessage.includes("data visualization")) {
             this.actionProvider.handleDataVisualizationList();
         }
+        
         if (lowerCaseMessage.includes("apis")) {
             this.actionProvider.handleApiList();
         }
