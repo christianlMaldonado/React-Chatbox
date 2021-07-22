@@ -1,8 +1,8 @@
 # React-Chatbox
-Simple Chatbot in React using Data Science.
+A simple Chatbot made in React using Data Science.
 
 
-Here are some screenshots of the Chat-bot. 
+Here are some screenshots of the Chat-bot in action.
 
 ![alt text](./chat-bot/src/Images/ChatbotExample1.png)
 
