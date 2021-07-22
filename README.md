@@ -1,8 +1,11 @@
 # React-Chatbox
 Simple Chatbot in React using Data Science.
 
-![alt text](.\src\components\Images\ChatbotExample1)
 
-![alt text](http://url/to/img.png)
+Here are some screenshots of the Chat-bot. 
 
-![alt text](http://url/to/img.png)
+![alt text](./chat-bot/src/Images/ChatbotExample1.png)
+
+![alt text](./chat-bot/src/Images/ChatbotExample2.png)
+
+![alt text](./chat-bot/src/Images/ChatbotExample3.png)
